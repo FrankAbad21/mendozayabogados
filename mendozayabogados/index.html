@@ -8,10 +8,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     </head>
     <body>
 		<div class="menu">
-                <p>MENDOZA & ASOCIADOS</p>
+                <p>MENDOZA & ABOGADOS</p>
                 <nav>
                     <ul class="menu-lista">
                         <li class="primer-elemento">Sobre nosotros</li>
@@ -28,7 +30,7 @@
             
             
             <div class="titular">
-				<h1><b>MENDOZA & ASOCIADOS</b></h1>
+				<h1><b>MENDOZA & ABOGADOS</b></h1>
                 <h1><b>PRESTIGIOSO ESTUDIO JURIDICO</b></h1>
 				<!--</br></br></br></br>
 				</br></br></br></br>
@@ -44,7 +46,7 @@
       <section>
         <h3>Sobre nosotros</h3>
         <div class="contenedor-sobremi">
-            <img src="mendoza_logo.jpeg" alt="Mendoza & Abogados" title="Mendoza & Abogados" >
+            <img src="Ronald.jpg" alt="Mendoza & Abogados" title="Mendoza & Abogados" class="fotoronald">
             <div class="contenedor-parrafo-y-boton">
                 <p class="parrafo-ajust">Somos especialistas en Derecho Notarial y Registral, con amplia experiencia, 
                     al haber laborado directamente en Notarias Publicas de la Ciudad de Piura 
@@ -84,7 +86,6 @@
                         <li>Elaboración de diferentes tipos de Actas de juntas de accionistas, de socios, de titular.</li>
                         <li>Nombramiento de juntas directivas.</li> 
                         <li>Renuncia y Nombramiento de directorio.</li>
-                        <li>Renuncia y Nombramiento de Gerente general (SAC y SRL)</li>
                     </ul>
                     <img src="monitor.png">
                 </div>
@@ -98,7 +99,7 @@
                         <li>Registro de propiedad, contratos de donaciones.</li>
                         <li>Inmatriculación e independización de predios, rectificación de áreas y linderos.</li>
                         <li>Rectificación de áreas por error de cálculo.</li>
-                        <li>Prescripción adquisitiva de dominio.</li>
+                        <li>Renuncia y Nombramiento de Gerente general (SAC y SRL)</li>
                     </ul>
                     <img src="monitor.png">
                 </div>
@@ -106,6 +107,7 @@
                 <div class="servicio violeta">
                     <h4>Derecho Notarial y Derecho Registral</h4>
                     <ul>
+                        <li>Prescripción adquisitiva de dominio.</li>
                         <li>Sustitución de régimen patrimonial.</li>
                         <li>Sucesión intestada en vía Notarial.</li>
                         <li>División, partición y adjudicación de propiedad.</li>
@@ -120,5 +122,42 @@
 
             </div>
       </section>
+
+      <section>
+        <div class="contenedor">
+            <h3>Mis Trabajos</h3>
+            <div class="owl-carousel">
+                <div><img src="Ronald.jpg" alt="Ronald" title="Ronald Mendoza" class="fotoronald"></div>
+                <div><img src="mendoza_logo.jpeg" alt="Mendoza & Abogados" title="Mendoza & Abogados" class="fotoronald"></div>
+                <div><img src="Ronald.jpg" alt="Mendoza & Abogados" title="Mendoza & Abogados" class="fotoronald"></div>
+                <div><img src="Ronald.jpg" alt="Mendoza & Abogados" title="Mendoza & Abogados" class="fotoronald"></div>
+                <div><img src="Ronald.jpg" alt="Mendoza & Abogados" title="Mendoza & Abogados" class="fotoronald"> </div>
+                <div><img src="Ronald.jpg" alt="Mendoza & Abogados" title="Mendoza & Abogados" class="fotoronald"></div>
+            </div>
+        </div>
+      </section>
+
+
+      <script src="owlcarousel/jquery.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+      <script>
+
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+      </script>
     </body>
 </html>

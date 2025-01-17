@@ -134,8 +134,22 @@ h3 {
     float: right;
 }
 
-.servicio p {
+.servicio ul {
     font-size: 18px;
     text-align: justify;
-    height: 200px;
+    height: 430px;
+}
+
+.fotoronald {
+    width: 25%;
+    height: 25%;
+}
+
+span {
+    font-size: 80px;
+    color: blue;
+}
+
+.owl-nav {
+    text-align: center;
 }
