@@ -113,7 +113,7 @@ h3 {
 
 .servicio {
     width: 25%;
-    padding: 50px 38px 50px 38px;
+    padding: 25px 25px 25px 10px;
     border-radius: 10px;
     margin-bottom: 40px;
     color: white;
@@ -125,9 +125,18 @@ h3 {
     background-color: lightblue;
 }
 
-.servicio h4 {
-    font-size: 30px;
+.h3Servicio {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.h4Servicios {
+    font-size: 35px;
     margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .servicio img {
@@ -142,14 +151,66 @@ h3 {
 
 .fotoronald {
     width: 25%;
-    height: 25%;
+    height: 30%;
+}
+
+.fotocarrusel {
+    width: 40%;
+    height: 480px;
 }
 
 span {
     font-size: 80px;
-    color: blue;
+    color: #5e2129;;
 }
 
 .owl-nav {
     text-align: center;
+}
+
+.contenedor-porque {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.porque-singular h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.porque-singular p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.porque-singular {
+    width: 20%;
+}
+
+#contactanos {
+    background: linear-gradient(
+        rgba(84,93,220,.94),
+        rgba(96,171,245,.9)
+        );
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#contactanos h3 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#contactanos a {
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+
+#contactanos a:hover {
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);
+    display: inline-block;
 }
