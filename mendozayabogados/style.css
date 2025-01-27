@@ -214,3 +214,10 @@ span {
     transform: scale(1.4);
     display: inline-block;
 }
+
+#whatsapp a {
+    background: none;
+    position: fixed;
+    right: 10px;
+    top: 80%;
+}
